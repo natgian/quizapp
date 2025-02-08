@@ -1,0 +1,110 @@
+/*------ */
+/* RESET */
+/*------ */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"],
+li {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Add "pointer" cursor to buttons and summary*/
+button,
+[type="button"],
+[type="reset"],
+[type="submit"],
+[type="image"],
+[type="checkbox"],
+[type="radio"],
+summary {
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(33, 242, 220, 0.2);
+}
+
+/* nav,
+footer {
+  background-color: rgb(237, 141, 249, 0.8);
+} */
+
+.main-layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.wrapper {
+  min-width: 300px;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  margin: 0 auto;
+}
+
+.question-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.card-answer:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, 0.05);
+}
+
+@media (max-width: 389px) {
+  body {
+    font-size: 14px;
+  }
+
+  .wrapper {
+    padding: 16px;
+  }
+}
+
+.unclickable {
+  pointer-events: none;
+}
