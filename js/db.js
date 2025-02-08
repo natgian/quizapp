@@ -1,0 +1,42 @@
+let questions = [
+  {
+    "question": "In welchem Film sagt der Charakter 'I am your father'?",
+    "answer_1": "The Matrix",
+    "answer_2": "Inception",
+    "answer_3": "Guardians of the Galaxy",
+    "answer_4": "Star Wars: Episode V – Das Imperium schlägt zurück",
+    "right_answer": "answer_4",
+  },
+  {
+    "question": "Welcher Film gewann den Oscar für den besten Film im Jahr 2003?",
+    "answer_1": "Gladiator",
+    "answer_2": "Der Herr der Ringe: Die Rückkehr des Königs",
+    "answer_3": "A Beautiful Mind",
+    "answer_4": "Chicago",
+    "right_answer": "answer_2",
+  },
+  {
+    "question": "Wer führte Regie bei 'Schindlers Liste'?",
+    "answer_1": "Quentin Tarantino",
+    "answer_2": "Martin Scorsese",
+    "answer_3": "Steven Spielberg",
+    "answer_4": "Ridley Scott",
+    "right_answer": "answer_3",
+  },
+  {
+    "question": "Welche Schauspielerin spielte die Rolle der 'Hermione Granger' in den Harry-Potter-Filmen?",
+    "answer_1": "Emma Watson",
+    "answer_2": "Keira Knightley",
+    "answer_3": "Natalie Portman",
+    "answer_4": "Scarlett Johansson",
+    "right_answer": "answer_1",
+  },
+  {
+    "question": "In welchem Jahr wurde der erste 'Harry Potter'-Film veröffentlicht?",
+    "answer_1": "1999",
+    "answer_2": "2001",
+    "answer_3": "2003",
+    "answer_4": "2005",
+    "right_answer": "answer_2",
+  },
+];
