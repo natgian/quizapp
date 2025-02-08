@@ -114,10 +114,14 @@ function showNumberOfQuestions() {
   return (document.getElementById("number-of-questions").innerHTML = questions.length);
 }
 
-function restartQuiz() {
+function resetToStartingQuiz() {
   currentQuestion = 0;
   rightAnswers = 0;
   progress = 0;
   document.querySelector(".card").innerHTML = getStartScreenTemplate();
+}
+
+function restartQuiz() {
+  resetToStartingQuiz();
   init();
 }
